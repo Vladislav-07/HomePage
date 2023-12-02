@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main: #333;
+  --main-rgb: 51, 51, 51;
+  color-scheme: light;
+}
+
+.header-container {
+  /* border: 3px solid #6C63FF; */
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 80%;
+  margin: 0 auto 0;
+  padding: 15px;
+}
+
+.buttonColorTheme {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border: 3px solid #6C63FF;
+  border-radius: .9em;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+  transition: all 0.6s;
+}
+
+.buttonColorTheme:hover {
+  background-color: #6C63FF;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-container-home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title-name {
+  font-size: clamp(2rem,4vw,4rem);
+  font-weight: 900;
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+}
+
+.sub-title-Name {
+  font-size: clamp(1.5rem,4vw,2.5rem);
+  font-weight: 700;
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+}
+
+.about-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: clamp(2rem,4vw,3rem);
+  margin-top: 50px;
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: clamp(1.125rem,2vw,1.25rem);
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.stack-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: clamp(2rem,4vw,3rem);
+  margin-top: 150px;
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+}
+
+.stack-container {
+  border: 3px solid #6C63FF;
+  display: flex;
+  justify-content: space-around;
+  max-width: 30%;
+  margin: 0 auto 0;
+  padding: 50px;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: clamp(2rem,4vw,3rem);
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+  margin-top: 150px;
+}
+
+.conteiner-projects {
+  /* border: 3px solid red; */
+  max-width: 80%;
+  margin: 0 auto 0;
+  padding: 30px;
+}
+
+.container-card img {
+  width: 100%;
+  border-bottom: 5px solid #6C63FF;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.card {
+  margin: 10px;
+  border: 5px solid #6C63FF;
+  border-radius: 10px;
+}
+
+.card-info {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: clamp(1.5rem,4vw,1.5rem);
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+a {
+  color: #6C63FF;
+  font-size: clamp(1.125rem,2vw,1.25rem);
+  font-family: "Museo","Segoe UI","Arial",sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.select::selection {
+  background: #6C63FF
+}
+
+/** DARK THEME **/
+
+.dark {
+  --main: #333;
+  --main-rgb: 51, 51, 51;
+  color-scheme: dark;
+}
+
