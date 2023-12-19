@@ -1,7 +1,7 @@
-let root = document.querySelector(':root')
+let bodyTheme = document.querySelector('.body')
 let button = document.querySelector('.buttonColorTheme')
 
 button.addEventListener('click', () => {
   event.preventDefault()
-  root.classList.toggle('dark')
+  bodyTheme.classList.toggle('darkTheme')
 })
