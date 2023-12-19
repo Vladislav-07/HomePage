@@ -163,9 +163,11 @@ a {
 
 /** DARK THEME **/
 
-.dark {
-  --main: #333;
-  --main-rgb: 51, 51, 51;
-  color-scheme: dark;
+.darkTheme {
+  background-color: #1C1B22;
+  color: white;
 }
 
+.darkTheme .buttonColorTheme {
+  color: white;
+}
