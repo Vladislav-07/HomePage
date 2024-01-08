@@ -159,6 +159,7 @@ a {
 
 .select::selection {
   background: #6C63FF
+  color: white;
 }
 
 /** DARK THEME **/
