@@ -158,7 +158,7 @@ a {
 }
 
 .select::selection {
-  background: #6C63FF
+  background: #6C63FF;
   color: white;
 }
 
